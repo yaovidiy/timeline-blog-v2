@@ -6,6 +6,7 @@ export interface Category {
 export interface Card {
   id: string;
   image: string;
+  slug: string;
   category: string;
   title: string;
   description: string;
